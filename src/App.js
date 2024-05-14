@@ -35,7 +35,10 @@ const handleSubmit = (e) => {
 
 return (
   <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-green-400 to-blue-500">
-    <h1 className="text-4xl text-white mt-8 mb-4">Decision-O-Tron</h1>
+    <h1 className="text-4xl text-white mt-8 mb-4 animate-pulse relative">✨ Decision-O-Tron 8000 ✨
+    <span className="absolute top-0 -left-4 animate-bounce">✨</span>
+    <span className="absolute top-0 -right-4 animate-bounce">✨</span>
+  </h1>
     <p className="text-white text-center mb-8">
       There once was a lass named Amy,
       <br />

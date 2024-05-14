@@ -506,11 +506,23 @@ video {
 .mr-2 {
   margin-right: 0.5rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .flex {
   display: flex;
 }
 .min-h-screen {
   min-height: 100vh;
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 .flex-col {
   flex-direction: column;
@@ -552,6 +564,9 @@ video {
 }
 .p-2 {
   padding: 0.5rem;
+}
+.text-center {
+  text-align: center;
 }
 .text-2xl {
   font-size: 1.5rem;
